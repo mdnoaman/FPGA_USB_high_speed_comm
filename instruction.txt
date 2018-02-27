@@ -1,0 +1,30 @@
+Instructions for running using C/C++ compiler
+
+for detailed info, follow the pdf file "Opening a connection with ft232h using D2XX"
+
+installation of C/C++ compiler:
+first have minGW installed on machine (32bit or 64bit)
+add to the path variable (from my computer >> properties >> system variable>>>...)
+that's all for installation and setup of C/C++ compiler
+
+
+running the code:
+Create a txt file and change the extension to .c or .cpp
+open the file using Notepad++
+write the code (copy from the zipped files) and save it
+
+open cmd and change the directory to the working directory
+
+copy the ftdi.lib and ftd2xx.h from the i386 folder to the working directory
+
+
+run this code:
+
+>gcc -o ftdi.cpp ftd2xx.lib   ## this compiles the hex file and creates an ftdi.exe file
+
+>ftdi    ## this will run the ftdi.exe file
+
+
+
+
+
