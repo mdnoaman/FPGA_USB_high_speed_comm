@@ -8,9 +8,5 @@ A quick solution is to store all the different patterns and trigger them one by 
 Among varius other possibilities like gigabit ethernet, USB3 etc. here the idea is to use widely accessible USB high speed protocol just keep simple and cost effective. An FT232H chip is available below 10 euros from ebay.
 
 This repository also aims for PC side communication software using C++. The program is mainly adapted from the application note of FT232H chip which uses ftd2xx.h library for C++ programs. The C file is also shared along with the HDL files.
-To able to successfully establish communication from PC side, you need to download the relevant files from FT232H homepage and follow the basic working instruction down below:
+To able to successfully establish communication from PC side, you need to download the relevant files from FT232H homepage and follow the basic working instruction.txt file. I could see transfer speeds reaching above 30 MBps. An effort is going on to use Python with Tkinter package as a front end and C++ for backend development.
 
-copy the ftdi2xx.lib and ftd2xx.h from the i386 folder to the working directory
-run this code:
-        >gcc -o ftdi.cpp ftd2xx.lib   ## this compiles the hex file and creates an ftdi.exe file
-        >ftdi    ## this will run the ftdi.exe file
