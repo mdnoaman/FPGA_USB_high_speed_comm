@@ -1,0 +1,27 @@
+NET "*" IOSTANDARD = LVCMOS33;
+
+//important pins for clock, and other flags
+NET "clk"    LOC = P51;	  	// input
+NET "oe"  	 LOC = P50;		// output
+NET "rxf"    LOC = P40;   	// input
+NET "rd"  	 LOC = P41;   	// output 
+
+// led pins output
+NET "led[0]"  LOC = P134;
+NET "led[1]"  LOC = P133;
+NET "led[2]"  LOC = P132;
+NET "led[3]"  LOC = P131;
+NET "led[4]"  LOC = P127;
+NET "led[5]"  LOC = P126;
+NET "led[6]"  LOC = P124;
+NET "led[7]"  LOC = P123;
+
+// data pins input
+NET "data[0]"  LOC = P23;
+NET "data[1]"  LOC = P24;
+NET "data[2]"  LOC = P26;
+NET "data[3]"  LOC = P27;
+NET "data[4]"  LOC = P29;
+NET "data[5]"  LOC = P30;
+NET "data[6]"  LOC = P32;
+NET "data[7]"  LOC = P33;
